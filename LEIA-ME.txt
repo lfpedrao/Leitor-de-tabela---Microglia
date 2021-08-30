@@ -1,0 +1,47 @@
+Olá, e seja bem vindo ao programa leitor de tabela de esqueletonização!
+
+O programa foi desenvolvido para acelerar a análise morfológica (da esqueletonização), facilitando com que você obtenha os dados da sua imagem!
+Para começar, é importante ressaltar que o programa é simples e, por isso, existem cuidados que devem ser tomados na análise.
+Com isso, podemos começar nosso tutorial!
+
+INSTALAÇÃO DO PROGRAMA 
+
+1. Baixe o arquivo do drive, disponibilizado anteriormente. Esse arquivo deve estar no formato .rar (compactado)
+
+2. Descompacte o arquivo, em uma pasta que seja de fácil acesso, e que você não esqueça aonde ela está armazenada
+
+3. Rode o programa (dois cliques no arquivo "Leitor de Tabela - Microglia 1.1.exe"). Pode ser que ele demore um pouco para iniciar e abra uma tela preta (prompt), mas não
+se preocupe! Tudo está correto com ele, não feche o prompt, senão o programa irá fechar.
+
+4. Caso qualquer 'bug' aconteça, por favor, mande um e-mail para lfpedrao@usp.br para que ele possa ser reportado e, assim, o programa melhore cada vez mais!
+
+UTILIZAÇÃO DO PROGRAMA
+
+1. Conte a quantidade de células na imagem original, antes de fazer a análise de esqueletonização. Ela é importante para que o programa faça as contas devidamente!
+
+2. Faça a análise da sua imagem (protocolo normal de esqueletonização, caso você tenha macros para fazer a análise ela fica ainda mais rápida)
+
+3. Ao finalizar sua análise, ela irá gerar uma tabela, na qual você supostamente copiaria e colaria no excel para analisá-la. Entretanto, para usar o programa, você
+deve exportar a tabela resultante para algum lugar no seu computador, para que o programa seja capaz de ler a tabela!
+	OBS 1: lembre-se sempre de exportar a tabela com um nome que faça sentido para aquela imagem. Caso contrário, todas as suas tabelas terão o mesmo nome "Results.csv",
+	e isso pode confundir mais pra frente.
+	OBS 2: é importante que a tabela resultante seja aquela que saiu do ImageJ, para que ela esteja no formato .csv (valores separados por vírgula).
+
+4. No momento da análise, digite o número de células contadas no passo 1 na caixa de entrada.
+
+5. Em seguida, selecione a tabela que você exportou correspondente a imagem que você contou as células.
+
+6. Por fim, após selecionar a tabela, ela imediatamente fará a análise da tabela em duas linhas (branches e endpoints)
+
+ERROS CONHECIDOS
+
+1. Ao inserir o número de células, é importante que o '0' presente na caixa de entrada seja apagado, senão o programa reconhece aquele dígito a mais e faz a contagem errada!
+
+2. A recomendação é utilizar o programa em fullscreen, para que todos os resultados sejam dispostos um em seguida do outro, em uma coluna. Caso a coluna acabe, feche o 
+programa e abra-o novamente.
+
+3. Lembre-se sempre de colocar algum número maior que 0 na contagem, senão toda a análise estará errada. O número 0 também é capaz de "crashar" o programa e, enquanto
+esse bug não seja corrigido, caso você acidentalmente analise uma tabela com o número '0' na caixa de entrada, feche o programa e abra-o novamente.
+
+Contato:
+Luiz Fernando - lfpedrao@usp.br
